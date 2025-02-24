@@ -1,7 +1,7 @@
 /**
- * @file kvaser.can.interface.hpp
+ * @file kvaser.can.control.hpp
  * @author Byunghun Hwang <bh.hwang@iae.re.kr>
- * @brief CAN Interface using KVaser PCIE CAN
+ * @brief CAN Control using KVaser PCIE CAN
  * @version 0.1
  * @date 2025-02-24
  * 
