@@ -9,18 +9,18 @@
  * 
  */
 
-#ifndef FLAME_KVASER_CAN_INTERFACE_HPP_INCLUDED
-#define FLAME_KVASER_CAN_INTERFACE_HPP_INCLUDED
+#ifndef FLAME_KVASER_CAN_CONTROL_HPP_INCLUDED
+#define FLAME_KVASER_CAN_CONTROL_HPP_INCLUDED
  
 #include <flame/component/object.hpp>
  
 using namespace std;
 // using namespace boost;
  
-class kvaser_can_interface : public flame::component::object {
+class kvaser_can_control : public flame::component::object {
     public:
-        kvaser_can_interface() = default;
-        virtual ~kvaser_can_interface() = default;
+        kvaser_can_control() = default;
+        virtual ~kvaser_can_control() = default;
  
         /* common interface functions */
         bool on_init() override;
